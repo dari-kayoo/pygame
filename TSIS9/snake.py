@@ -24,7 +24,7 @@ class Food():
 
 class Snake():
     def __init__(self):
-        self.x = -1
+        self.x = -10
         self.y = 50
         self.speed = 2
         self.velocity = [self.speed, 0]  # dx,dy
